@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(70deg, rgb(100,75,50), rgb(90,65,40));;
+    margin: 0;
+    padding: 0;
+    color: darkgoldenrod;
+    font-family: 'Oleo Script', sans-serif;
+}
+
+header{
+    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+    padding: 15px 60px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+#page-logo a{
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin: 20px;
+}
+
+header a{
+
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header li{
+    padding-left: 20px;
+}
+
+h1{
+    color: darkgoldenrod;
+}
