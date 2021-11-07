@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="webfood.css">
     <title>WebFood</title>
 </head>
 <body>
-    <header>
-        <div id="page-logo"><a href= "/">WebFood</a></div>
+    <header id="main-header">
+        <div id="page-logo"><a href= "/" id="logo">WebFood</a></div>
         <nav>
             <ul>
                 <li><a href="#">Browse Meals</a></li>
@@ -17,18 +22,26 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="latest-products">
             <h1>Browse Our Delicious Meals</h1>
             <ul>
-                <li>
-                    <img src="/images/risotto.jpg" alt="Risoto Plate">
-                    <p>Risotto with Tiger Prawns</p>
-                    <a href="#">Add to Cart</a>
+                <li class="food-item">
+                    <article>
+                        <img src="/images/risotto.jpg" alt="Risoto Plate">
+                        <div class="food-item-content">
+                            <h2>Risotto with Tiger Prawns</h2>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </article>
                 </li>
-                <li>
-                    <img src="/images/cheeseburgers.jpg" alt="Cheeseburgers plate with fries">
-                    <p>Cheeseburgers</p>
-                    <a href="#">Add to Cart</a>
+                <li class="food-item">
+                    <article>
+                        <img src="/images/cheeseburgers.jpg" alt="Cheeseburgers plate with fries">
+                        <div class="food-item-content">
+                            <h2>Cheeseburgers</h2>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </article>
                 </li>
             </ul>
         </section>
